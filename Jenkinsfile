@@ -1,4 +1,4 @@
-node (mac)
+node ("mac")
 {
     checkout scm
 
