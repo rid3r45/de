@@ -1,2 +1,2 @@
 def data="ab"
-println data
+println $data
