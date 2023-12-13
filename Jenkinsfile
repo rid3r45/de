@@ -1,5 +1,2 @@
-println "new code"
-
-sh """
-    ls -la
-"""
+def data="ab"
+println data
