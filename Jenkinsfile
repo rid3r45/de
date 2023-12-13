@@ -2,9 +2,9 @@ node ("mac")
 {
     checkout scm
 
-    println(get_value(1, 2))
-}
+    def get_value(int a, float b) {
+        return a*b
+    }
 
-def get_value(int a, float b) {
-    return a*b
+    println(get_value(1, 2))
 }
