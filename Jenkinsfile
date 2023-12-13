@@ -1,10 +1,10 @@
+def get_value(int a, float b) {
+    return a*b
+}
+
 node ("mac")
 {
     checkout scm
 
-    for (int i in 1..3) {
-        if (i == 2){
-            break
-        }
-    }
+    println(get_value(1, 2))
 }
