@@ -6,3 +6,4 @@ node ("mac")
     for (int i in array) {
         println(i)
     }
+}
