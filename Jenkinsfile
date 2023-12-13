@@ -1,3 +1,6 @@
-def range = 2..12
+int cnt = 0
 
-println(range)
+while (cnt < 2) {
+    println(cnt)
+    cnt++
+}
