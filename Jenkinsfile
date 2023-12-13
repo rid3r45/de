@@ -1,6 +1,3 @@
-int cnt = 0
-
-while (cnt < 2) {
-    println(cnt)
-    cnt++
+for (int i=0;i<2;i++) {
+    println("Value of i: ${i}")
 }
