@@ -2,12 +2,7 @@ node ("mac")
 {
     checkout scm
 
-    sh """
-        ls -la
-        pwd
-    """
-
-    for (int i=0;i<2;i++) {
-        println("Value of i: ${i}")
+    int[] array = [1, 4]
+    for (int i in array) {
+        println(i)
     }
-}
