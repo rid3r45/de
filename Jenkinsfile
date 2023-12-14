@@ -1,4 +1,4 @@
-def get_value(int a, float b) {
+def get_value(def a, def b) {
     return a*b
 }
 
