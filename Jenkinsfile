@@ -1,5 +1,5 @@
 def get_value(int a, float b) {
-        return a*b + c
+    return a*b
 }
 
 node ("mac")
