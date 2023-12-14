@@ -5,7 +5,7 @@ node ("mac")
     }
     
     stage ("Tests") {
-        Int a = 1
+        int a = 1
         float b = 2
         result = get_value(a, b)
         println(result.doubleValue())
