@@ -1,5 +1,4 @@
 def get_value(int a, float b) {
-        int c = 2
         return a*b + c
 }
 
