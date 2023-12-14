@@ -10,6 +10,7 @@ node ("mac")
     }   
 }
 
-def get_value(def a, def b) {
+def get_value(a, b){
+    println(a.getClass())
     return a*b
 }
