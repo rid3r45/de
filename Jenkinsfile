@@ -10,7 +10,7 @@ node ("mac")
     }
     
     stage ("Tests") {
-        result = get_value(1, 2)
+        result = get_value(1, 2.0)
         println(result.doubleValue())
     }   
 }
