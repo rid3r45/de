@@ -7,5 +7,6 @@ node ("mac")
         return a*b + c
     }
 
-    println(get_value(1, 2))
+    result = get_value(1, 2)
+    println(result.doubleValue())
 }
