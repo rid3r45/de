@@ -6,7 +6,7 @@ node ("rpi")
     
     stage ("Tests") {
         int a = 1
-        float b = 2
+        float b = 3
         result = get_value(a, b)
         println(result.doubleValue())
     }   
