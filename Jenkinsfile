@@ -12,6 +12,7 @@ node ("rpi")
 
         sh("""
         pwd
+        which python3
         """)
     }   
 }
