@@ -1,4 +1,4 @@
-node ("mac")
+node ("rpi")
 {
     stage ("Initialization") {
         checkout scm
