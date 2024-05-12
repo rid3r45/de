@@ -12,7 +12,7 @@ node ("rpi")
 
         sh("""
         pwd
-        apt-get install python3.11
+        which python3.11
         """)
     }   
 }
