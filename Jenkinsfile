@@ -9,6 +9,10 @@ node ("rpi")
         float b = 3
         result = get_value(a, b)
         println(result.doubleValue())
+
+        sh("""
+        pwd
+        """)
     }   
 }
 
